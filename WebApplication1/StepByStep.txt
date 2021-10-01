@@ -1,0 +1,38 @@
+﻿
+
+1. Right Click on Empty Asp.Net project 
+2. Click Add
+3. Add Web Service - CalculatorWebService.asmx
+4. Rename WebService namespace in WebService class file
+5. Create add method
+6. Run WebService by right click on '.asmx' file and click 'View in Browser'
+
+7. Add new project 'CalculatorWebApplication'
+8. Now generate proxy class -> Right Click on 'Reference' inside your Project -> Add Service Reference
+9. In the Address Bar, copy '.asmx?WSDL' link of your Web Service and click 'Add'
+** Adding '?WSDL' in the end is not mandotary
+(If it's detected, it'll be add on 'Services' list)
+(If you expand that it'll also show all available methods of your WebService)
+10. Write 'CalculatorService' in 'Namespace' bar and click OK
+
+** Now your web service has been added to your 'CalculatorWebApplication' Project
+
+11. Right Click on your project file and add a form 'Webform1.aspx' ** Complete your form code
+	> Go to design mode and generate 'btnAdd' event bu double clicking it in your '.cs' file
+
+12. Set your WebForm Project as 'Startup Project' and Set 'WebForm1.aspx' as 'StartUp File'
+
+13. Create New Add Method and Set 'EnableSession=true' to 'WebMethod' attribute
+
+14. Right click on '.asmx'  file in 'WebApplicaiton1' and select 'View With' or 'View In Browser'
+
+15. Click on 'Add2' method and do some calculations
+
+16. Now click on 'GetCalculations' method in your '.asmx' page and click on 'Invoke', all calculations will be listed here
+
+17. Right click on 'CalculatorService' in your 'CalculatorWebApplication' project and click 'Update Service Reference'
+*** Do this everytime you make changes in your 'Web Service'
+
+18. Go to 'Webform1.aspx' and add 'GridView'
+
+19. Go to 'Webform1.aspx.cs' and invoke 'getCalculations' method inside 'btnAdd_Click' method
