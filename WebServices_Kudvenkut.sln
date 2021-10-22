@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApplication", 
 		{2B9F1C73-007F-4BDC-BECA-16B7634FE6CE} = {2B9F1C73-007F-4BDC-BECA-16B7634FE6CE}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicePractice", "WebServicePractice\WebServicePractice.csproj", "{222856B0-1809-4768-8F6C-9B110ECE31DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherWebServiceDemo", "WeatherWebServiceDemo\WeatherWebServiceDemo.csproj", "{3168D533-35DA-4C9E-9F08-9F19E5DE1848}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,14 @@ Global
 		{7A98E555-F791-43FA-8579-7E701E7FCD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A98E555-F791-43FA-8579-7E701E7FCD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A98E555-F791-43FA-8579-7E701E7FCD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222856B0-1809-4768-8F6C-9B110ECE31DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222856B0-1809-4768-8F6C-9B110ECE31DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222856B0-1809-4768-8F6C-9B110ECE31DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222856B0-1809-4768-8F6C-9B110ECE31DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3168D533-35DA-4C9E-9F08-9F19E5DE1848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3168D533-35DA-4C9E-9F08-9F19E5DE1848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3168D533-35DA-4C9E-9F08-9F19E5DE1848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3168D533-35DA-4C9E-9F08-9F19E5DE1848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

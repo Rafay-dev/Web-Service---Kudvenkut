@@ -36,3 +36,57 @@
 18. Go to 'Webform1.aspx' and add 'GridView'
 
 19. Go to 'Webform1.aspx.cs' and invoke 'getCalculations' method inside 'btnAdd_Click' method
+
+20. Allow cookies in 'Web.config' binding tag
+
+21. Run 'WebForm1.aspx' in browser and do some calculations
+
+22. Add Description to Add2 method in 'CalculatorWebServices.asmx.cs' file
+
+23. Open '.asmx' file in browser to see description under method name
+
+24. Add 'Cache Duration' to 'Add2' method in your 'CalculatorWebServices.asmx.cs' file 
+** Cache duration will store the current output in cache for as long as 'cache duration' time 
+	and within that time if the next output is same as the stored output it'll do nothing 
+	and our web service will not be reprocessed for that operation
+
+25. Build project and Update Service then run 'WebForm1'
+
+26. Create two methods for multiplicaiton for method overloading in 'CalculatorWebServices.asmx.cs' file
+
+27. CREATE NEW PROJECT 'WebServicePractice'
+
+28. Create table 'tblStudent' in your local database
+
+29. Insert some entries and create stored procedure to get data by ID named "spGetStudentByID"
+
+30. Create ConnectionString in Web.Config
+
+31. Create 'GetStudentById' method in 'StudentService.asmx.cs'
+
+32. View 'StudentService.asmx' in browser, Insert ID of a student and Invoke function
+
+33. Add WebForm in 'WebServicePractice' project
+
+34. Uncomment 'ScriptService' from the top of 'StudentService' class
+
+35. Add 'Service Path' inside 'ScriptManager' tag on 'WebForm1' from toolbox
+
+36. Add 'JavaScript' on 'WebForm1'
+	 >  Add Success & Fail callback function and add them in parameters of 'WebServicePractice.StudentService.GetStudentById()' method
+	** Now invalid inout will alert an error
+
+/************************** LECTURE 6 END
+
+/**********************  LECTURE 7
+/********************** WEATHER WEB SERVICE NOT WORKING
+37. ADD NEW PROJECT
+	> WeatherWebServiceDemo
+
+38. Add Table on WebForm1
+
+39. Add WebService in project
+	Solution Explorer > Add > Service Reference
+
+40. Add click event of 'btnGetWeather_Click' in 'WebForm1.aspx.cs' file
+

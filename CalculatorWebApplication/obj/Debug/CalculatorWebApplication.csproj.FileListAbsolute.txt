@@ -49,8 +49,8 @@ D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\b
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\bin\roslyn\VBCSCompiler.exe.config
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csprojAssemblyReference.cache
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csproj.CoreCompileInputs.cache
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csproj.CopyComplete
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.dll
 D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.pdb
+D:\AbRafay\WebServices Tutorial\WebServices_Kudvenkut\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csprojAssemblyReference.cache

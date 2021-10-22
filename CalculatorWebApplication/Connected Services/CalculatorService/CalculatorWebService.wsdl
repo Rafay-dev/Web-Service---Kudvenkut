@@ -94,6 +94,7 @@
       <wsdl:output message="tns:AddSoapOut" />
     </wsdl:operation>
     <wsdl:operation name="Add2">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method adds 3 values</wsdl:documentation>
       <wsdl:input message="tns:Add2SoapIn" />
       <wsdl:output message="tns:Add2SoapOut" />
     </wsdl:operation>

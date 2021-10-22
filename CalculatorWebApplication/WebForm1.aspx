@@ -27,6 +27,14 @@
             </tr>
             <tr>
                 <td>
+                    <b>Third Number: </b>
+                </td>
+                <td>
+                    <asp:TextBox runat="server" ID="txtThirdNum"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <b>Result: </b>
                 </td>
                 <td>

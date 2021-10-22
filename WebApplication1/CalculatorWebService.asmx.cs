@@ -10,7 +10,11 @@ namespace WebApplication1
     /// Summary description for CalculatorWebService
     /// </summary>
     [WebService(Namespace = "http://xyzcompany.org/webservice")] // Rename it to your company domain or anyting to make it unique
-    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+
+    // (LC:5)
+    //[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)] // change it to:
+    [WebServiceBinding(ConformsTo = WsiProfiles.None)]
+
     [System.ComponentModel.ToolboxItem(false)]
 
     // ** To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
@@ -37,7 +41,10 @@ namespace WebApplication1
 
 
         //:2 (Lc:3)
-        [WebMethod(EnableSession =true)]
+        //[WebMethod(EnableSession =true)]
+
+        // (LC:4) Add Desription and Cache Duration to this method
+        [WebMethod(EnableSession = true, Description = "This method adds 3 values", CacheDuration = 20/*seconds*/)]
         public int Add2(int fNum, int sNum, int tNum)
         {
             // Create a 'List' to store all calculations in a session that user performed
@@ -79,5 +86,23 @@ namespace WebApplication1
                 return (List<string>)Session["CALCULATION"];
             }
         }
+
+
+        // (LC:5)
+        // * If we don't specify the 'message' attribute in our 'WebMethod', the name of the method will be considered as the 'message'
+        // Without identifying uniqueness in methods with same name 'Method Overloading' cannot be performed
+        // (LC:5) // :1
+        [WebMethod(MessageName = "TwoValuesMultiplication")]
+        public int Multiply(int fNum, int sNum, int tNum)
+        {
+            return fNum * sNum * tNum;
+        }
+        // (LC:5) // :2
+        [WebMethod]
+        public int Multiply(int fNum, int sNum)
+        {
+            return fNum * sNum ;
+        }
+        // Now change WebServiceBinding from 'BasicProfile' to 'none' on top
     }
 }
